@@ -4,8 +4,5 @@ $(function () { //短縮系
 //   // bodyタグ内のHTMLを<h1>Hello jQuery!!</h1>で書き換えてね
 //   // $(セレクタ).メソッド(パラメータ);
 // });
-  $('.box1').css({
-    'background-color': '#0000FF',
-    'height':'100px'
-  });
+  $('.box1').slideUp()
 });
